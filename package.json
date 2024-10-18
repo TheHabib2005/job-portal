@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "@prisma/client": "^5.21.1",
+    "@types/apicache": "^1.6.6",
+    "apicache": "^1.6.3",
+    "express": "^4.21.1",
+    "nodemon": "^3.1.7"
+  },
+  "scripts": {
+    "dev": "nodemon",
+    "build": "tsc",
+    "start": "node dist/app.js",
+    "postinstall": "prisma generate"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.7.6",
+    "prisma": "^5.21.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3"
+  }
+}
